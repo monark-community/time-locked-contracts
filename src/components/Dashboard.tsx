@@ -52,7 +52,7 @@ export const Dashboard = () => {
           return (
             <Card key={index} className="bg-white/70 backdrop-blur-sm border-slate-200 hover:shadow-lg transition-all duration-300">
               <CardContent className="p-6">
-                  <div className={`p-3 rounded-lg bg-gradient-to-r ${stat.gradient}`}>
+                  <div className={`p-3 rounded-lg bg-gradient-to-r ${stat.gradient} w-fit`}>
                     <Icon className="h-6 w-6 text-white" />
                   </div>
                 <div className="flex items-center justify-between">
