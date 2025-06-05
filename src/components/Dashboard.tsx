@@ -52,13 +52,13 @@ export const Dashboard = () => {
           return (
             <Card key={index} className="bg-white/70 backdrop-blur-sm border-slate-200 hover:shadow-lg transition-all duration-300">
               <CardContent className="p-6">
+                  <div className={`p-3 rounded-lg bg-gradient-to-r ${stat.gradient}`}>
+                    <Icon className="h-6 w-6 text-white" />
+                  </div>
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm font-medium text-slate-600 mb-1">{stat.title}</p>
                     <p className="text-2xl font-bold text-slate-800">{stat.value}</p>
-                  </div>
-                  <div className={`p-3 rounded-lg bg-gradient-to-r ${stat.gradient}`}>
-                    <Icon className="h-6 w-6 text-white" />
                   </div>
                 </div>
               </CardContent>
