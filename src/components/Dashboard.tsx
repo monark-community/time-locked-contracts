@@ -23,7 +23,7 @@ export const Dashboard = () => {
       gradient: "from-blue-500 to-blue-600"
     },
     {
-      title: "Completed Releases",
+      title: "Releases",
       value: completedVaults.toString(),
       icon: Clock,
       gradient: "from-purple-500 to-purple-600"
